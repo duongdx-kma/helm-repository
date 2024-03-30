@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  firstchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-30T06:21:30.754304569Z"
+    dependencies:
+    - import-values:
+      - child: image
+        parent: tomcatImage
+      name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - enabled
+      version: 10.17.2
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.1.0
+    - alias: testing-nfs-subdir-external-provisioner
+      condition: testing-nfs-subdir-external-provisioner.enabled
+      name: nfs-subdir-external-provisioner
+      repository: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+      version: 4.0.18
+    - alias: just-test-nfs-subdir-external-provisioner
+      condition: just-test-nfs-subdir-external-provisioner.enabled
+      name: nfs-subdir-external-provisioner
+      repository: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+      version: 4.0.18
+    description: A Helm chart for Kubernetes
+    digest: 992430df5834b1de49c2fd0b7cc9d95296acbe7082e69bc13cd514a9bff35699
+    maintainers:
+    - email: xuanduong.kma@gmail.com
+      name: duongdx
+    name: firstchart
+    type: application
+    urls:
+    - firstchart-0.1.0.tgz
+    version: 0.1.0
+  secondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-30T06:21:30.755651574Z"
+    description: A Helm chart for Kubernetes
+    digest: dfd53331a4c926a75ea5c3ae9787cbc997bdccd73c223e790961e7f87fff6817
+    name: secondchart
+    type: application
+    urls:
+    - secondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-30T06:21:30.745832222Z"
