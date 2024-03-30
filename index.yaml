@@ -3,7 +3,7 @@ entries:
   firstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T07:42:00.55756298Z"
+    created: "2024-03-30T14:02:47.919186866Z"
     dependencies:
     - import-values:
       - child: image
@@ -40,7 +40,7 @@ entries:
   fourstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T07:42:00.558199389Z"
+    created: "2024-03-30T14:02:47.920618854Z"
     description: A Helm chart for Kubernetes
     digest: ea822fa8e3c37da110bea2e201748c73c6793bd8ce90f1b2654cd8cb13d66fd9
     name: fourstchart
@@ -48,10 +48,21 @@ entries:
     urls:
     - fourstchart-0.1.0.tgz
     version: 0.1.0
+  nginx-signed-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-30T14:02:47.921647133Z"
+    description: A Helm chart for Kubernetes
+    digest: 6ba658f8d4bc39972070c55d8fda4426e3683f91be8673af71618651adf1c48e
+    name: nginx-signed-chart
+    type: application
+    urls:
+    - nginx-signed-chart-0.1.0.tgz
+    version: 0.1.0
   secondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T07:42:00.558808465Z"
+    created: "2024-03-30T14:02:47.923015345Z"
     description: A Helm chart for Kubernetes
     digest: dfd53331a4c926a75ea5c3ae9787cbc997bdccd73c223e790961e7f87fff6817
     name: secondchart
@@ -62,7 +73,7 @@ entries:
   thirstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T07:42:00.559403008Z"
+    created: "2024-03-30T14:02:47.924303488Z"
     description: A Helm chart for Kubernetes
     digest: 6c8b4d9bc1ecea7ad65c6160aff5b6f2d2cf71f4015dca143eb8561697a6ecf9
     name: thirstchart
@@ -70,4 +81,4 @@ entries:
     urls:
     - thirstchart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-30T07:42:00.548401423Z"
+generated: "2024-03-30T14:02:47.877283531Z"
