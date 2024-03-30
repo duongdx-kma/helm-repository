@@ -3,7 +3,7 @@ entries:
   firstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T06:21:30.754304569Z"
+    created: "2024-03-30T07:28:02.29334013Z"
     dependencies:
     - import-values:
       - child: image
@@ -40,7 +40,7 @@ entries:
   secondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-30T06:21:30.755651574Z"
+    created: "2024-03-30T07:28:02.293984635Z"
     description: A Helm chart for Kubernetes
     digest: dfd53331a4c926a75ea5c3ae9787cbc997bdccd73c223e790961e7f87fff6817
     name: secondchart
@@ -48,4 +48,15 @@ entries:
     urls:
     - secondchart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-30T06:21:30.745832222Z"
+  thirstchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-30T07:28:02.294555771Z"
+    description: A Helm chart for Kubernetes
+    digest: 6c8b4d9bc1ecea7ad65c6160aff5b6f2d2cf71f4015dca143eb8561697a6ecf9
+    name: thirstchart
+    type: application
+    urls:
+    - thirstchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-30T07:28:02.28455374Z"
