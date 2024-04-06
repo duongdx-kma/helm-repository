@@ -2,7 +2,9 @@
 
 ---------------------------------
 
-<h3>note: secring.gpg is public key </h3>
+<h3>note: helm still use gpg old version</h3>
+<h4>secring.gpg is public key </h4>
+<h4>pubring.kbx is private key </h4>
 
 ---------------------------------
 - ##### generate public and secret key using GPG
