@@ -38,3 +38,6 @@
 
 - ##### update repo and fetch new chart in repo:
 > helm repo update "repo-name"
+
+- ##### search repo and list all versions:
+> helm search repo duongdx-kma/socket_chart --versions
