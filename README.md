@@ -24,3 +24,17 @@
 
 - ##### verify the chart when install chart:
 > helm install --verify --keyring ~/.gnupg/secring.gpg "install_name" "chart_name_alias"
+
+------------------
+
+<h3>Add new chart in repo</h3>
+
+- ##### update index.yaml to chart present
+> helm repo index "repo-directory"
+
+- ##### add chart:
+> helm repo add "repo-name" "repo-url"
+> helm repo add "duongdx-kma" "https://duongdx-kma.github.io/helm-repository/"
+
+- ##### update repo and fetch new chart in repo:
+> helm repo update "repo-name"
