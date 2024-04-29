@@ -3,7 +3,7 @@ entries:
   firstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.35057323+07:00"
+    created: "2024-04-29T15:04:55.366621042+07:00"
     dependencies:
     - import-values:
       - child: image
@@ -40,7 +40,7 @@ entries:
   fourstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.351224331+07:00"
+    created: "2024-04-29T15:04:55.367493662+07:00"
     description: A Helm chart for Kubernetes
     digest: ea822fa8e3c37da110bea2e201748c73c6793bd8ce90f1b2654cd8cb13d66fd9
     name: fourstchart
@@ -51,7 +51,7 @@ entries:
   nginx-signed-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.351950106+07:00"
+    created: "2024-04-29T15:04:55.368249812+07:00"
     description: A Helm chart for Kubernetes
     digest: 6ba658f8d4bc39972070c55d8fda4426e3683f91be8673af71618651adf1c48e
     name: nginx-signed-chart
@@ -62,7 +62,7 @@ entries:
   secondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.352607717+07:00"
+    created: "2024-04-29T15:04:55.369423646+07:00"
     description: A Helm chart for Kubernetes
     digest: dfd53331a4c926a75ea5c3ae9787cbc997bdccd73c223e790961e7f87fff6817
     name: secondchart
@@ -73,7 +73,31 @@ entries:
   socket_chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.407648368+07:00"
+    created: "2024-04-29T15:04:55.384466864+07:00"
+    dependencies:
+    - name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.10.0
+    - alias: socket-app-nfs
+      name: nfs-subdir-external-provisioner
+      repository: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+      version: 4.0.18
+    - name: metrics-server
+      repository: https://kubernetes-sigs.github.io/metrics-server
+      version: 3.12.1
+    description: DuongDX socket app - golang - react - mysql
+    digest: 2e2b632aa410e23fa1b93901ec6e63b4b4bd2dd94097c5b5be09d2d75d904ed5
+    maintainers:
+    - email: xuanduong.kma@gmail.com
+      name: duongdx
+    name: socket_chart
+    type: application
+    urls:
+    - socket_chart-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-29T15:04:55.433603975+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -97,7 +121,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.400836484+07:00"
+    created: "2024-04-29T15:04:55.427171943+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -121,7 +145,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.394963885+07:00"
+    created: "2024-04-29T15:04:55.420500229+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -145,7 +169,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.385289937+07:00"
+    created: "2024-04-29T15:04:55.414196324+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -169,7 +193,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.377890888+07:00"
+    created: "2024-04-29T15:04:55.406499217+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -193,7 +217,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.371650178+07:00"
+    created: "2024-04-29T15:04:55.399055404+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -217,7 +241,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-29T11:59:01.364164385+07:00"
+    created: "2024-04-29T15:04:55.391953415+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -238,7 +262,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.358556257+07:00"
+    created: "2024-04-29T15:04:55.375324995+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -260,7 +284,7 @@ entries:
   thirstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-29T11:59:01.408224467+07:00"
+    created: "2024-04-29T15:04:55.434950663+07:00"
     description: A Helm chart for Kubernetes
     digest: 6c8b4d9bc1ecea7ad65c6160aff5b6f2d2cf71f4015dca143eb8561697a6ecf9
     name: thirstchart
@@ -268,4 +292,4 @@ entries:
     urls:
     - thirstchart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-29T11:59:01.341988438+07:00"
+generated: "2024-04-29T15:04:55.358768748+07:00"
