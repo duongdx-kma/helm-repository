@@ -34,6 +34,7 @@
 
 - ##### add chart:
 > helm repo add "repo-name" "repo-url"
+
 > helm repo add "duongdx-kma" "https://duongdx-kma.github.io/helm-repository/"
 
 - ##### update repo and fetch new chart in repo:
